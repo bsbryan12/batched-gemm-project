@@ -45,7 +45,7 @@ results/                timing output files (gitignored)
 ## Reproducing results
 
 1. SSH into the university GPU server (RTX 3080 node)
-2. `git clone <repo> && cd batched-gemm`
+2. `git clone https://github.com/tadiwakabs/batched-gemm-project.git && cd batched-gemm-project`
 3. `make run`
 4. Results are saved to `results/timing_<timestamp>.txt`
 
